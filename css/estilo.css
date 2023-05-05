@@ -2,33 +2,44 @@ table {
     border-collapse: collapse;
 }
 
-table.nomes tr th, table.nomes tr td {
+table.nomes tr th,
+table.nomes tr td {
     border: 0.1rem solid rgb(87, 0, 201);
     padding: 0.1rem;
 }
 
 
-table.numeros tr, table.numeros tr td {
+table.numeros tr,
+table.numeros tr td {
     border: 0.2rem solid rgb(255, 2, 2);
     padding: 0.5rem;
 }
-table.fds tr th, table.fds tr td {
+
+table.fds tr th,
+table.fds tr td {
     border: 0.2rem solid rgb(0, 112, 43);
     padding: 0.5rem;
 }
 
-table.desafio2 tr th, table.desafio2 tr td {
+table.desafio2 tr th,
+table.desafio2 tr td {
     border: 0.2rem solid rgb(179, 180, 82);
     padding: 0.5rem;
 }
-table.desafio3 tr th, table.desafio3 tr td {
+
+table.desafio3 tr th,
+table.desafio3 tr td {
     border: 0.2rem solid rgb(158, 84, 0);
     padding: 0.5rem;
 }
 
-main{
+main {
     height: 98vh;
     align-items: center;
     display: flex;
-     justify-content:space-around
+    justify-content: space-around
+}
+
+a{
+    width: 20rem;
 }
